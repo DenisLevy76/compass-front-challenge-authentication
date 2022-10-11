@@ -1,0 +1,32 @@
+.signIn__input-container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+
+  position: relative;
+  border: 1px solid transparent;
+}
+
+.input {
+  font-size: 1rem;
+  border: 1px solid white;
+  color: white;
+
+  border-radius: 50px;
+  padding: 1.25rem;
+
+  background-color: transparent;
+
+  min-width: 23.75rem;
+
+  outline: none;
+}
+
+.signIn__input-container > .input-container__icon {
+  transition: all 0.5s;
+}
+
+.signIn__input-container:focus-within .input-container__icon,
+.signIn__input:not(:placeholder-shown) ~ .input-container__icon {
+  transform: translate(-3.5rem);
+}
