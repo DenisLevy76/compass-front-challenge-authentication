@@ -22,6 +22,11 @@
   outline: none;
 }
 
+.input-container__icon {
+  font-size: 1.5rem;
+  color: white;
+}
+
 .signIn__input-container > .input-container__icon {
   transition: all 0.5s;
 }
