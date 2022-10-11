@@ -1,0 +1,16 @@
+:root {
+  --size-1: 0.25rem; /* 4px */
+  --size-2: 0.5rem; /* 8px */
+  --size-3: 0.75rem; /* 12px */
+  --size-4: 1rem; /* 16px */
+  --size-8: 2rem; /* 32px */
+
+  --text-color: #e1e1e6;
+
+  --font-family: 'Mark Pro', sans-serif;
+
+  --primary-gradient: linear-gradient(180deg, #33383d 0%, #1c1d20 100%);
+  --secondary-gradient: linear-gradient(90deg, #ff2d04 0%, #c13216 100%);
+
+  --box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.55);
+}
