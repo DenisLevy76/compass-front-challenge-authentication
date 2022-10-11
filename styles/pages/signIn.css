@@ -1,4 +1,5 @@
 @import url(../components/signInForm.css);
+@import url(../components/button.css);
 
 body {
   height: 100vh;
@@ -15,7 +16,4 @@ body {
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
-}
-
-main {
 }
