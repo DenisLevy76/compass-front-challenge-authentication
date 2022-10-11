@@ -25,6 +25,7 @@ section {
 }
 body {
   line-height: 1;
+  font-family: 'Mark Pro', serif;
 }
 ol,
 ul {
@@ -38,7 +39,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
+  content: '';
   content: none;
 }
 table {
