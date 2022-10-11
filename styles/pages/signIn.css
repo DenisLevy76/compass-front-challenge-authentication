@@ -1,5 +1,6 @@
 @import url(../components/signInForm.css);
 @import url(../components/button.css);
+@import url(../variables.css);
 
 body {
   height: 100vh;
@@ -8,12 +9,21 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
 
+  color: var(--text-color);
+
   align-items: center;
   justify-content: center;
 
   background-image: url(../../assets/images/signInBackground.png),
-    linear-gradient(180deg, #33383d 0%, #1c1d20 100%);
+    var(--primary-gradient);
+
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
