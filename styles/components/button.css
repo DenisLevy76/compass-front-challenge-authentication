@@ -1,5 +1,5 @@
 .button {
-  color: var(--text-color);
+  color: var(--text-primary);
   background: var(--secondary-gradient);
   box-shadow: var(--box-shadow);
   border-radius: 50px;

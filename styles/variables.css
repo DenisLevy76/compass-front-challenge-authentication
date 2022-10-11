@@ -4,8 +4,11 @@
   --size-3: 0.75rem; /* 12px */
   --size-4: 1rem; /* 16px */
   --size-8: 2rem; /* 32px */
+  --size-16: 4rem; /* 64px */
+  --size-32: 8rem; /* 128px */
 
-  --text-color: #e1e1e6;
+  --text-primary: #e1e1e6;
+  --text-secondary: #c5c5c5;
 
   --font-family: 'Mark Pro', sans-serif;
 
