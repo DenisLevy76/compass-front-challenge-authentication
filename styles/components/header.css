@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  padding: var(--size-8) var(--size-5);
+}
+
+.header__logo {
+  width: 150px;
+}
+
+.header__weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weather__weather {
+  display: flex;
+  align-items: center;
+}
+
+.weather__temp {
+  font-size: var(--size-10);
+  font-weight: bold;
+  color: var(--text-dark);
+}
