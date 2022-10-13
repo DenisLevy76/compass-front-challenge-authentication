@@ -18,7 +18,7 @@
         <h1>Olá,</h1>
         <p>Para continuar navegando de forma segura, efetue o login na rede.</p>
       </article>
-      <form class="signIn error">
+      <form class="signIn" onsubmit="login(event)">
         <h1 class="signIn__title">Login</h1>
         <div class="signIn__input-container">
           <input
@@ -46,5 +46,6 @@
         <button type="submit" class="signIn__button button">Continuar</button>
       </form>
     </main>
+    <script src="scripts/login.js"></script>
   </body>
 </html>
