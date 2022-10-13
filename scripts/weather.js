@@ -16,6 +16,6 @@ navigator.geolocation.getCurrentPosition(function (position) {
       }`;
       weatherImg.setAttribute('src', weather.current.condition.icon);
       weatherImg.setAttribute('alt', weather.current.condition.text);
-      temp.innerText = `${weather.current.temp_c}º`;
+      temp.innerText = `${parseInt(weather.current.temp_c)}º`;
     });
 });
