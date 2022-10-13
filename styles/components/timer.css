@@ -2,14 +2,15 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  gap: 1rem;
 }
 
 .header__time > strong {
   font-size: var(--size-32);
   font-weight: 700;
+  color: var(--text-dark);
 }
 
 .header__time > p {
-  font-size: var(--size-5);
+  font-size: var(--size-4);
+  transform: translateY(-15px);
 }

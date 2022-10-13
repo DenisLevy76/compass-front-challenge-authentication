@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: flex-start;
 
-  padding: var(--size-8) var(--size-5);
+  padding: var(--size-5) var(--size-8);
 }
 
 .header__logo {
