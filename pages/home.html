@@ -8,11 +8,26 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <img src="../assets/images/LogoCompass.png" alt="Logo compass.uol" />
+    <header class="header">
+      <img
+        src="../assets/images/LogoCompass.png"
+        alt="Logo compass.uol"
+        class="header__logo"
+      />
       <div class="header__time">
         <strong>10:58</strong>
         <p>27 setembro de 2022</p>
+      </div>
+      <div class="header__weather">
+        <p class="weather__location">belém, PA</p>
+        <div class="weather__weather">
+          <img
+            src="//cdn.weatherapi.com/weather/64x64/night/116.png"
+            alt="clima"
+            class="weather__img"
+          />
+          <p class="weather__temp">30º</p>
+        </div>
       </div>
     </header>
     <main></main>
@@ -20,5 +35,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/locale/pt-br.min.js"></script>
     <script src="../scripts/timer.js"></script>
+    <script src="../scripts/weather.js"></script>
   </body>
 </html>
