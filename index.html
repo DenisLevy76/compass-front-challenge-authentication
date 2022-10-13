@@ -18,7 +18,7 @@
         <h1>Olá,</h1>
         <p>Para continuar navegando de forma segura, efetue o login na rede.</p>
       </article>
-      <form class="signIn">
+      <form class="signIn error">
         <h1 class="signIn__title">Login</h1>
         <div class="signIn__input-container">
           <input
@@ -40,6 +40,9 @@
           />
           <i class="ph-lock-thin input-container__icon"></i>
         </div>
+        <p class="signIn__helper-text helper-text">
+          Ops, usuário ou senha inválidos. Tente novamente!
+        </p>
         <button type="submit" class="signIn__button button">Continuar</button>
       </form>
     </main>

@@ -14,6 +14,19 @@
   font-size: var(--size-8);
 }
 
+.signIn__helper-text {
+  visibility: hidden;
+  color: var(--helper-text);
+  text-align: center;
+}
+
+.error .input {
+  border-color: var(--helper-text);
+}
+.error .helper-text {
+  visibility: visible;
+}
+
 .signIn__button {
-  margin-top: 5.1875rem;
+  margin-top: var(--size-8);
 }
