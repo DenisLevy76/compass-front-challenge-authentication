@@ -9,6 +9,6 @@ const login = (event) => {
 
   if (user === 'admin@admin.com.br' && password === 'admin') {
     formRef.classList.remove('error');
-    window.location.replace('https://google.com');
+    window.location.replace('../pages/home.html');
   } else formRef.classList.add('error');
 };
