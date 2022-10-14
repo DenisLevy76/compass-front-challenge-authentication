@@ -7,8 +7,21 @@ const login = (event) => {
   const user = userInput.value;
   const password = passwordInput.value;
 
-  if (user === 'admin@admin.com.br' && password === 'admin') {
+  if (user === 'admin' && password === 'admin') {
     formRef.classList.remove('error');
-    window.location.replace('../pages/home.html');
+    window.location.href = '../pages/home.html';
+
+    localStorage.setItem('user', user);
+    localStorage.setItem('password', password);
   } else formRef.classList.add('error');
+};
+
+const logout = () => {
+  if (confirm('Você realmente deseja sair?')) {
+    localStorage.removeItem('user');
+    localStorage.removeItem('password');
+    window.location.href = '../index.html';
+  } else {
+    return;
+  }
 };
