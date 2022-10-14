@@ -36,7 +36,7 @@ Figma do projeto: [keepalive – Figma](https://www.figma.com/file/D9NUCsGJ1gCvm
 
     - Lógica de Login com o usuário e senha, sendo apenas: "admin" e "admin".
 
-    - Lógica de horário e data completa" na tela Home.
+    - Lógica de horário e data completa na tela Home.
 
     - Lógica de Clima/Tempo tendo como referência a geolocalização do usuário logado. API recomendada: https://www.weatherapi.com na tela home.
 
