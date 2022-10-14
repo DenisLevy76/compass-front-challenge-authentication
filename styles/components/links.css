@@ -1,0 +1,30 @@
+.links {
+  display: flex;
+  position: absolute;
+  right: 0;
+  height: 100%;
+}
+
+.links__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 0 var(--size-5);
+
+  text-decoration: none;
+
+  width: 131px;
+
+  text-align: center;
+}
+
+.link--primary {
+  background-color: white;
+  color: red;
+}
+
+.link--secondary {
+  background-color: transparent;
+  color: var(--text-primary);
+}

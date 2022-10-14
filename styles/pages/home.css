@@ -4,6 +4,7 @@
 @import url(../components/timer.css);
 @import url(../components/header.css);
 @import url(../components/footer.css);
+@import url(../components/links.css);
 
 body {
   background: url(../../assets/images/backgroundCompass.png) no-repeat;

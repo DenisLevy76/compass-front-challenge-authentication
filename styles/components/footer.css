@@ -9,6 +9,8 @@
   color: var(--text-primary);
 
   font-size: var(--size-3);
+
+  position: relative;
 }
 
 .footer__container {
