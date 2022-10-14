@@ -22,5 +22,7 @@ const timer = setInterval(() => {
   showHour();
 }, 60 * 1000); // 60 secs
 
+const countdown = (time) => {};
+
 showHour();
 showDate();
