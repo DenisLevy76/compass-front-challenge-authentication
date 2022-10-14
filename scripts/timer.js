@@ -1,6 +1,7 @@
 const date = new Date();
 const hour = document.querySelector('.header__time strong');
 const today = document.querySelector('.header__time p');
+const countdownElement = document.querySelector('.timer__countdown strong');
 
 const padNumber = (number) => {
   return number.toString().padStart(2, '0');
@@ -22,7 +23,24 @@ const timer = setInterval(() => {
   showHour();
 }, 60 * 1000); // 60 secs
 
-const countdown = (time) => {};
+const countdown = () => {
+  let seconds = 05;
+  const interval = setInterval(() => {
+    if (seconds !== 0) {
+      seconds -= 1;
+      countdownElement.innerText = seconds.toString().padStart(3, '0');
+    } else if (seconds === 0) {
+      if (confirm('Deseja efetuar o logout da aplicação?')) {
+        clearInterval(interval);
+        document.location.replace('../index.html');
+      } else {
+        seconds = 600;
+      }
+    }
+  }, 1000);
+};
+
+countdown();
 
 showHour();
 showDate();
