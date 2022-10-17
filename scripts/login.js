@@ -17,11 +17,7 @@ const login = (event) => {
 };
 
 const logout = () => {
-  if (confirm('Você realmente deseja sair?')) {
-    localStorage.removeItem('user');
-    localStorage.removeItem('password');
-    window.location.href = '../index.html';
-  } else {
-    return;
-  }
+  localStorage.removeItem('user');
+  localStorage.removeItem('password');
+  window.location.href = '../index.html';
 };

@@ -32,6 +32,7 @@ const countdown = () => {
     } else if (seconds === 0) {
       if (confirm('Deseja efetuar o logout da aplicação?')) {
         clearInterval(interval);
+        logout();
         document.location.replace('../index.html');
       } else {
         seconds = 600;
