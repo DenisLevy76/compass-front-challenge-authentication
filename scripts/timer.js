@@ -35,6 +35,7 @@ const countdown = () => {
         document.location.replace('../index.html');
       } else {
         seconds = 600;
+        document.location.reload();
       }
     }
   }, 1000);
