@@ -23,8 +23,8 @@ const timer = setInterval(() => {
   showHour();
 }, 60 * 1000); // 60 secs
 
-const countdown = () => {
-  let seconds = 600;
+const countdown = (initialTime) => {
+  let seconds = initialTime;
   const interval = setInterval(() => {
     if (seconds !== 0) {
       seconds -= 1;
@@ -35,7 +35,7 @@ const countdown = () => {
         logout();
         document.location.replace('../index.html');
       } else {
-        seconds = 600;
+        seconds = initialTime;
         document.location.reload();
       }
     }

@@ -10,7 +10,7 @@ const handleLogout = () => {
 
 getCurrentWeather();
 
-countdown();
+countdown(600);
 
 showHour();
 showDate();
